@@ -1,11 +1,9 @@
-**1- Enunciado**: 
-
-Auditor de Logs y Guardrails para Prompts de IA Generativa
+# **Auditor de Logs y Guardrails para Prompts de IA Generativa**
 Nivel: Intermedio
-OBJETIVO DE NEGOCIO
+## **OBJETIVO DE NEGOCIO**
 Supervisar el funcionamiento de un asistente de IA en producción para garantizar respuestas rápidas,
 satisfactorias y libres de fugas de información confidencial.
-QUÉ DEBE HACER TU CÓDIGO (GUÍA DE TRABAJO)
+## QUÉ DEBE HACER TU CÓDIGO (GUÍA DE TRABAJO)
 Detectar riesgos de seguridad (Guardrails): Revisar el texto de cada respuesta buscando si contiene alguna
 de las palabras_prohibidas (sin importar si están en mayúsculas o minúsculas) y marcar esos
 registros como alerta de seguridad.
